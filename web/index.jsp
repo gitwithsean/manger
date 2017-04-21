@@ -1,4 +1,4 @@
-<%--
+<%@ page import="manger.main.HelloWorld" %><%--
   Created by IntelliJ IDEA.
   User: sean.ryan
   Date: 4/21/17
@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Simple jsp page</title>
   </head>
   <body>
-  $END$
+  <h3 class="message"><%=HelloWorld.getMessage()%></h3>
   </body>
 </html>

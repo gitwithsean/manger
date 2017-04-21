@@ -23,9 +23,15 @@ repositories {
 
 clean {
     delete "build"
+    delete "out"
 }
 
 dependencies {
+
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.14.8'
+    compile group: 'org.slf4j', name: 'jcl-over-slf4j', version: '1.7.0'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.6.4'
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.6.4'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'

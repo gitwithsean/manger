@@ -10,4 +10,9 @@ public class Shelf {
     private String shelfName;
     ArrayList<Item> items;
 
+    public Shelf(String shelfName){
+        this.shelfName = shelfName;
+        this.items = new ArrayList<Item>();
+    }
+
 }

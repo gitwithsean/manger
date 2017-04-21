@@ -9,4 +9,10 @@ public class Item {
     private String pathToFile;
     private boolean previouslyDownloaded;
 
+    public Item(String name, String pathToFile){
+        this.previouslyDownloaded = false;
+        this.name = name;
+        this.pathToFile = pathToFile;
+    }
+
 }
